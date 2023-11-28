@@ -34,7 +34,7 @@ is now shown like this with children inlined:
     e: E ((1, 2))
     f: F (1, 2, false, "Hello", ...)
 
-(a maximum of 4 elements of an `enum` tuple is shown inline)
+A maximum of 4 elements of an `enum` tuple is shown inline, but this can be changed in the Rust code if you prefer more.
 
 ## How to Use
 
