@@ -10,4 +10,4 @@ and then re-build your project in debug mode.
 ## Use WinDbg in VS Code
 
 Install [the MS C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) in VS Code. 
-In VS Code change the setting `rust-analyzer.debug.engine` to `ms-vscode.cpptools`. You can also copy the [launch.json](launch.json) to the `.vscode\` folder in your Rust project and then launch the VS Code debugger. 
+In VS Code change the setting `rust-analyzer.debug.engine` to `ms-vscode.cpptools`. You can also copy the [launch.json](.vscode/launch.json) to the `.vscode\` folder in your Rust project and then launch the VS Code debugger. 
