@@ -3,6 +3,37 @@
 Generates a more informative summary for `enum`'s when debugging Rust code in Windows. This requires using a debugger that uses Natvis files, for example WinDbg 
 (doesn't work with LLDB for example).
 
+## Example Output
+
+Values of this enum:
+
+    enum En {
+        A(i32),
+        B(String),
+        C(Point<i32>),
+        D { x: i32, y: i32 },
+        E((i32, i32)),
+        F(i32, i32, bool, String, f32),
+    }
+
+was previosly shown like this in the variable debug window:
+
+    a: A
+    b: B
+    c: C
+    d: D
+    e: E
+    f: F
+
+and is now shown like this:
+
+    a: A (10)
+    b: B ("Hello")
+    c: C ({x=1, y=2 })
+    d: D {x=1, y=2 }
+    e: E ((1, 2))
+    f: F (1, 2, false, "Hello", ...)
+
 ## How to Use
 
 Copy the [intrinsic.natvis](intrinsic.natvis) file to the `\Users\<user name>\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\etc\` folder, replacing the original file, 
