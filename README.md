@@ -16,7 +16,7 @@ Values of this enum:
         F(i32, i32, bool, String, f32),
     }
 
-was previosly shown like this in the variable debug window:
+that was previously shown like this in the variable debug window:
 
     a: A
     b: B
@@ -25,7 +25,7 @@ was previosly shown like this in the variable debug window:
     e: E
     f: F
 
-and is now shown like this:
+is now shown like this:
 
     a: A (10)
     b: B ("Hello")
@@ -34,7 +34,7 @@ and is now shown like this:
     e: E ((1, 2))
     f: F (1, 2, false, "Hello", ...)
 
-(a maximum of 4 elements of an `enum` tuple is shown)
+(a maximum of 4 elements of an `enum` tuple is shown inline)
 
 ## How to Use
 
