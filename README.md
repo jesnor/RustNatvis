@@ -25,7 +25,7 @@ that was previously shown like this in the variables debug window (note that you
     e: E
     f: F
 
-is now shown like this with children shown inlined:
+is now shown like this with children inlined:
 
     a: A (10)
     b: B ("Hello")
