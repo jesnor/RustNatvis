@@ -34,6 +34,8 @@ and is now shown like this:
     e: E ((1, 2))
     f: F (1, 2, false, "Hello", ...)
 
+(a maximum of 4 elements of an `enum` tuple is shown)
+
 ## How to Use
 
 Copy the [intrinsic.natvis](intrinsic.natvis) file to the `\Users\<user name>\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\etc\` folder, replacing the original file, 
