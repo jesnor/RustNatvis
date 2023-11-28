@@ -16,7 +16,7 @@ Values of this enum:
         F(i32, i32, bool, String, f32),
     }
 
-that was previously shown like this in the variables debug window (note that you could still expand them to show members):
+that was previously shown like this in the variables debug window (note that you could still expand them to show children):
 
     a: A
     b: B
@@ -25,7 +25,7 @@ that was previously shown like this in the variables debug window (note that you
     e: E
     f: F
 
-is now shown like this:
+is now shown like this with children shown inlined:
 
     a: A (10)
     b: B ("Hello")
