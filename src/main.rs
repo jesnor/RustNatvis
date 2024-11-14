@@ -90,7 +90,7 @@ fn main() -> Result<()> {
         arity,
         |v| {
             format!(
-                "in_range128(tag128_hi, tag128_lo, variant0.DISCR128_BEGIN_HI, variant{0}.DISCR128_BEGIN_LO, variant{0}.DISCR128_END_HI, variant{0}.DISCR128_END_LO)",
+                "in_range128(tag128_hi, tag128_lo, variant{0}.DISCR128_BEGIN_HI, variant{0}.DISCR128_BEGIN_LO, variant{0}.DISCR128_END_HI, variant{0}.DISCR128_END_LO)",
                 v
             )
         },
